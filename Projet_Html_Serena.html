@@ -1,0 +1,95 @@
+
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fan Club Serena Williams à Marseille - Découvrez la légende à travers des vidéos et des moments emblématiques.">
+    <title>Fan Club Serena Williams</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Proje_Css_Serena.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="Selena_logo_signature.webp" alt="Logo Serena Williams">
+        </div>
+        <button class="hamburger" onclick="toggleMenu()">☰</button>
+        <nav class="menu">
+            <ul>
+                <li><a href="#section1">Introduction</a></li>
+                <li><a href="#section2">Moment 1</a></li>
+                <li><a href="#section3">Moment 2</a></li>
+                <li><a href="#section4">Moment 3</a></li>
+                <li><a href="#section5">Moment 4</a></li>
+                <li><a href="#section6">Moment 5</a></li>
+                <li><a href="#section7">Moment 6</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Première section : Image pleine page -->
+    <section class="hero" id="section1">
+        <img src="Selena_logo.jpg" alt="Serena sert pour le point">
+        <div class="overlay">
+            <h1>La légende Serena</h1>
+            <p>Fan Club Marseille</p>
+        </div>
+    </section>
+
+
+
+<!-- Section avec une vidéo en pleine page -->
+<section class="section video-section">
+    <video autoplay muted loop>
+        <source src="Dear Serena, A Tribute to Serena Williams ❤️ Narrated by Oprah.mp4" type="video/mp4">
+        Votre navigateur ne supporte pas les vidéos HTML5.
+    </video>
+    <div class="video-text">
+        <h2>La Légende Serena Williams</h2>
+        <p>Une carrière exceptionnelle</p>
+    </div>
+</section>
+
+<!-- Section de contenu suivant -->
+<section class="content-section">
+    <p>Section 1 : Découvrez les moments forts</p>
+</section>
+
+<!-- Deuxième vidéo -->
+<section class="section video-section">
+    <video autoplay muted loop>
+        <source src="Dear Serena, A Tribute to Serena Williams ❤️ Narrated by Oprah.mp4" type="video/mp4">
+        Votre navigateur ne supporte pas les vidéos HTML5.
+    </video>
+    <div class="video-text">
+        <h2>Un Service Dévastateur</h2>
+        <p>La puissance de Serena Williams</p>
+    </div>
+</section>
+
+<!-- Section de contenu suivant -->
+<section class="content-section">
+    <p>Section 2 : Une athlète d'exception</p>
+</section>
+
+
+
+
+
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2024 - Fan Club Serena Williams Marseille | Tous droits réservés</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector('.menu');
+            menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+        }
+    </script>
+</body>
+</html>
